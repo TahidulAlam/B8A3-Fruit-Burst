@@ -38,6 +38,8 @@
 
 <body class="font-lato">
     <header class="lg:max-w-screen-xl  mx-auto md:px-16 lg:px-24 lg:py-5 ">
+        <!-- nav-bar -->
+
         <nav class="lg:flex lg:flex-row flex flex-row-reverse  justify-between items-center px-1 lg:bg-red-400 rounded-full py-4 mb-5">
             <div class="dropdown sm:block lg:hidden">
                 <label tabindex="0" class="btn btn-ghost btn-circle lg:text-white">
@@ -66,12 +68,15 @@
 
             </div>
         </nav>
+
+        <!-- hero-banner-slider -->
+
         <section class="lg:max-w-screen-xl mx-auto max-w-full">
             <div class="hero-content max-w-full">
                 <div class="carousel max-w-screen-sm lg:max-w-screen-xl rounded-xl">
                     <div id="slide1" class="carousel-item relative w-full">
                         <div class="flex flex-col lg:flex-row justify-center items-center">
-                            <img src="./images/banner1.png" class="w-full lg:h-[500px] h-[200px]" />
+                            <img src="./images/banner1.png" class="w-full lg:h-[500px] md:h-[325px] h-[200px]" />
                         </div>
                         <div class="absolute  flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide2" class="btn btn-circle">❮</a>
@@ -81,7 +86,7 @@
                     <div id="slide2" class="carousel-item relative w-full">
 
                         <div class="flex flex-col lg:flex-row justify-center items-center">
-                            <img src="./images/banner2.png" class="w-full lg:h-[500px] h-[200px]" />
+                            <img src="./images/banner2.png" class="w-full lg:h-[500px] md:h-[325px] h-[200px]" />
                         </div>
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide3" class="btn btn-circle">❮</a>
@@ -91,7 +96,7 @@
                     <div id="slide3" class="carousel-item relative w-full">
 
                         <div class="flex flex-col lg:flex-row justify-center items-center">
-                            <img src="./images/banner3.png" class="w-full lg:h-[500px] h-[200px]" />
+                            <img src="./images/banner3.png" class="w-full lg:h-[500px] md:h-[325px] h-[200px]" />
                         </div>
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide4" class="btn btn-circle">❮</a>
@@ -101,7 +106,7 @@
                     <div id="slide4" class="carousel-item relative w-full">
 
                         <div class="flex flex-col lg:flex-row justify-center items-center">
-                            <img src="./images/banner4.png" class="w-full lg:h-[500px] h-[200px]" />
+                            <img src="./images/banner4.png" class="w-full lg:h-[500px] md:h-[325px] h-[200px]" />
                         </div>
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide1" class="btn btn-circle">❮</a>
@@ -122,39 +127,41 @@
                 </div>
             </div>
 
-            <div class="lg:w-10/12 lg:block md:block md:h-24 hidden mx-auto lg:h-28 justify-center relative bg-white rounded-md lg:bottom-24 md:bottom-20">
+            <div class="lg:w-10/12 md:w-9/12 lg:block md:block md:h-24 hidden mx-auto lg:h-28 justify-center relative bg-white rounded-md lg:bottom-24 md:bottom-20">
                 <div class="flex justify-around py-5">
                     <div class="flex flex-col items-center justify-center gap-3">
-                        <img class="w-24 h-20" src="./images/fruit1.png" alt="">
-                        <p>Strawberry</p>
+                        <img class="w-24 h-20 md:w-12 md:h-8" src="./images/fruit1.png" alt="">
+                        <p class="md:text-sm">Strawberry</p>
                     </div>
                     <div class="flex flex-col items-center justify-center gap-3">
-                        <img class="w-24 h-20" src="./images/fruit2.png" alt="">
-                        <p>Orange</p>
+                        <img class="w-24 h-20 md:w-12 md:h-8" src="./images/fruit2.png" alt="">
+                        <p class="md:text-sm">Orange</p>
                     </div>
                     <div class="flex flex-col items-center justify-center gap-3">
-                        <img class="w-24 h-20" src="./images/fruit3.png" alt="">
-                        <p>Mango</p>
+                        <img class="w-24 h-20 md:w-12 md:h-8" src="./images/fruit3.png" alt="">
+                        <p class="md:text-sm">Mango</p>
                     </div>
                     <div class="flex flex-col items-center justify-center gap-3">
-                        <img class="w-24 h-20" src="./images/fruit4.png" alt="">
-                        <p>Strawberry</p>
+                        <img class="w-24 h-20 md:w-12 md:h-8" src="./images/fruit4.png" alt="">
+                        <p class="md:text-sm">Strawberry</p>
                     </div>
                     <div class="flex flex-col items-center justify-center gap-3">
-                        <img class="w-24 h-20" src="./images/fruit5.png" alt="">
-                        <p>Mango</p>
+                        <img class="w-24 h-20 md:w-12 md:h-8" src="./images/fruit5.png" alt="">
+                        <p class="md:text-sm">Mango</p>
                     </div>
 
                 </div>
             </div>
         </section>
+
     </header>
-    <main class="">
+    <main>
+        <!-- Deal of the day -->
         <section class="max-w-screen-xl mx-auto md:px-16 lg:px-24 py-5 text-center ">
             <div class="lg:flex flex-col justify-between lg:flex-row mb-10">
                 <div>
                     <p class="text-3xl font-bold lg:text-start text-center">Deal of the day</p>
-                    <p class="text-slate-500 p-10 text-sm lg:text-start text-center pt-5">Contrary to popular belief, is not simply random text.
+                    <p class="text-slate-500 py-5 px-10 lg:px-0 text-sm lg:text-start text-center">Contrary to popular belief, is not simply random text.
                         It has roots in a piece of classical <br> Latin literature from 45 BC,
                         making it over 2000 years old.</p>
                 </div>
@@ -381,6 +388,8 @@
             </div>
             <button class="btn bg-red-400 border-0 mt-10">Shop All</button>
         </section>
+
+        <!-- meet-with-the-team -->
         <section class="max-w-screen-xl  mx-auto md:px-16 lg:px-24 py-5 ">
             <div class="hero min-h-screen rounded-xl" style="background-image: url(./images/team.png);">
                 <div class="hero-overlay rounded-xl bg-opacity-60"></div>
@@ -437,21 +446,22 @@
                 </div>
             </div>
         </section>
-
-        <section class="max-w-screen-xl mx-auto  md:px-16 lg:px-24 py-5">
+        
+        <!-- why-choose-us -->
+         <section class="max-w-screen-xl mx-auto  md:px-16 lg:px-24 py-5">
             <div class="text-center">
                 <h1 class="mb-5 text-3xl font-bold">Why Choose us</h1>
                 <p class="mb-5 text-center text-sm texs px-10">Contrary to popular belief, is not simply random text. It has
                     roots in a piece of classical <br>
                     Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class="lg:flex gap-5 justify-between">
-                <div class="lg:flex-col lg:order-2">
+            <div class="lg:flex md:flex gap-5 justify-between">
+                <div class="lg:flex-col md:flex-col lg:order-2 md:order-2 md:hidden">
                     <div class="w-11/12 mx-auto">
                         <img class="w-full" src="./images/whychoose1.png" alt="">
                     </div>
                 </div>
-                <div class="lg:flex-col lg:order-1">
+                <div class="lg:flex-col md:flex-col lg:order-1 md:order-1">
                     <div class="md:flex lg:flex lg:justify-start justify-center items-center lg:items-start gap-5">
                         <div class="rounded-full p-3 bg-slate-200 mt-5 w-12 mx-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -507,7 +517,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:flex-col lg:order-3">
+                <div class="lg:flex-col md:flex-col lg:order-3 md:order-3">
                     <div class="md:flex lg:flex-row-reverse lg:justify-start justify-center items-center lg:items-start gap-5">
                         <div class="rounded-full p-3 bg-slate-200 mt-5 w-12 mx-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
